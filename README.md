@@ -6,6 +6,7 @@ This project was created on the following:
 - Redux Persist
 - React Router
 - Semantic UI
+- Reqres API (test only API)
 
 ## Available Scripts
 

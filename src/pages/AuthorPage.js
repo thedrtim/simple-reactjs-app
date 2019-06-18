@@ -29,7 +29,7 @@ class AuthorPage extends React.Component {
                                             <div className="content">
                                                 <p className="header">{data.name}</p>
                                                 <div className="meta">
-                                                    <span className="date">Joined in 2013</span>
+                                                    <span className="date">Joined in 2019</span>
                                                 </div>
                                                 <div className="description">
                                                     {data.email}
