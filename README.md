@@ -5,6 +5,7 @@ This project was created on the following:
 - Redux Saga
 - Redux Persist
 - React Router
+- Semantic UI
 
 ## Available Scripts
 

@@ -5,7 +5,9 @@ const Menu = (props) => {
     return (
         <div>
             <HeaderMenu />
-            {props.children}
+            <div className="ui container">
+                {props.children}
+            </div>
         </div>
     )
 }
