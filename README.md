@@ -16,7 +16,8 @@ This project was created on the following:
    -redux
    -routes
    -sagas
-   -index.js```
+   -index.js
+```
 
 ## Available Scripts
 
