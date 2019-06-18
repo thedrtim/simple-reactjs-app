@@ -8,7 +8,7 @@ class CardContent extends React.Component {
                 <div className="image">
                     {
                         data.avatar && 
-                        <img src={data.avatar} alt={`picture-${data.id}`} />
+                        <img src={data.avatar} alt={`author-${data.id}`} />
                     }
                 </div>
                 <div className="content">
