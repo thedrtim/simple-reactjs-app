@@ -8,6 +8,16 @@ This project was created on the following:
 - Semantic UI
 - Reqres API (test only API)
 
+## Folder Structures
+## -src
+##   -components
+##   -pages
+##   -reducers
+##   -redux
+##   -routes
+##   -sagas
+##   -index.js
+
 ## Available Scripts
 
 In the project directory, you can run:
