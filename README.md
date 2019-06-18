@@ -1,5 +1,6 @@
 This project was created on the following:
 - React JS
+- React Redux
 - Redux
 - Redux Saga
 - Redux Persist
