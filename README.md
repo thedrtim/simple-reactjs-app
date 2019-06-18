@@ -9,14 +9,14 @@ This project was created on the following:
 - Reqres API (test only API)
 
 ## Folder Structures
-## -src
-##   -components
-##   -pages
-##   -reducers
-##   -redux
-##   -routes
-##   -sagas
-##   -index.js
+``` -src
+   -components
+   -pages
+   -reducers
+   -redux
+   -routes
+   -sagas
+   -index.js```
 
 ## Available Scripts
 
