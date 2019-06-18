@@ -9,14 +9,15 @@ This project was created on the following:
 - Reqres API (test only API)
 
 ## Folder Structures
-``` -src
-   -components
-   -pages
+``` 
+-src
+   -components //Reusable components
+   -pages //Screens or pages
    -reducers
    -redux
-   -routes
+   -routes //Navigator
    -sagas
-   -index.js
+   -index.js 
 ```
 
 ## Available Scripts
