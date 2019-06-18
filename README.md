@@ -22,7 +22,11 @@ This project was created on the following:
 
 ## Available Scripts
 
-In the project directory, you can run:
+Here are the step by step to install and run the project:
+
+### `npm install`
+
+To install all the dependencies and plugins of the app.
 
 ### `npm start`
 
