@@ -6,7 +6,7 @@ class HomePage extends React.Component {
         return (
             <Page>
                 <h2>Hello, This is the HOME PAGE!</h2>
-                <h6>If you want something more, just click Author page above.</h6>
+                <h6>If you want something more, just click Author page above or the face of the young man.</h6>
             </Page>
         )
     }
