@@ -1,0 +1,33 @@
+name: Reactjs CI/CD
+
+# Controls when the workflow will run
+on:
+  push:
+    branches: [ "master" ]
+    
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Git pull on server
+        uses: appleboy/ssh-action@master
+        with: 
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            cd simple-reactjs-app
+            git pull
+            npm install
+            npm run build
+            npm restart
+            pm2 restart reactapp
+
+          
