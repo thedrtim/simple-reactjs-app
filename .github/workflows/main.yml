@@ -21,7 +21,7 @@ jobs:
         with: 
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          fingerprint: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd simple-reactjs-app
             git pull
