@@ -5,7 +5,7 @@ const Menu = () => {
     return (
         <div className="ui two item menu">
             <NavLink className="item" to = "/">Home</NavLink>
-            <NavLink className="item" to = "/author">Author</NavLink>
+            <NavLink className="item" to = "/author">Speaker</NavLink>
         </div>
     )
 }
