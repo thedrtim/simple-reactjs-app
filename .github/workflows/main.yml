@@ -28,6 +28,6 @@ jobs:
             npm install
             npm run build
             npm restart
-            pm2 restart reactapp
+            pm2 restart all
 
           
